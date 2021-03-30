@@ -1,0 +1,18 @@
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ConsultaPaciente', N'Se consulta el expediente de un paciente con todos sus datos');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ConsultarAsistencia', N'Se consulta las asistencias totales de un paciente junto con faltas');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ConsultarDonacion', N'Se consultan datos relevantes de la donacion');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ConsultarEmpleado', N'Se consultan los datos de la cuenta del empleado');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ConsultarReportePaciente', N'Se consulta el reporte de un paciente');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'CrearEmpleado', N'Se crea una nueva cuenta de empleado');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'CrearPaciente', N'Se crea expediente de paciente');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'CrearReportePaciente', N'Se crea un reporte del diagnostico y tratamineto de un paciente');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'EliminarDonacion', N'Se elimina el registro de la donacion');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'EliminarEmpleado', N'Se elimina una cuenta de empleado');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'EliminarPaciente', N'Se elimina el expediente del paciente');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'EliminarReportePaciente', N'Se elimina el reporte de un paciente');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ModificarDatosPaciente', N'Se modifica algun dato que requiera el paciente');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ModificarDonacion', N'Se modifican datos requeridos en el registro');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ModificarEmpleado', N'Se modifican los datos del empleado');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'ModificarReportePaciente', N'Se modifican datos del reporte de un paciente');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'RegistrarAsistencia', N'Se registra la asistencia del paciente a una sesion');
+INSERT INTO privilegios (Id_Privilegio, Accion) VALUES (N'RegistrarDonacion', N'Se registra donacion');

@@ -1,0 +1,28 @@
+#sidebar{
+    
+}
+.sidebar{
+    background-color: #353535;
+    height: calc(100vh - 54px); 
+}
+
+.nav-link{
+    color: #ffffff;
+    border-radius: 50;
+}
+
+.navbar-nav{
+    background-color: #4f4f4f 
+}
+
+#form{
+    background-color: #F3F4F7;
+}
+
+#navbar{
+    background-color: #353535;
+}
+
+#brand{
+    color: #ffffff;
+}

@@ -1,0 +1,2 @@
+INSERT INTO roles (Id_Rol, Descripcion_Rol) VALUES (N'Administracion', N'Crea empleados, gestiona donativos y genera expedientes de pacientes');
+INSERT INTO roles (Id_Rol, Descripcion_Rol) VALUES (N'Terapeuta', N'Gestiona pacientes, crea reportes, toma asistencia');

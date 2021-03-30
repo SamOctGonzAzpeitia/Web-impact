@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crear usuario</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="Prototipo_1.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="Prototipo_1.html">Inicio</a></li>
+                    <li><a href="Administracion.html">Administracion</a></li>
+                    <li><a href="Prototipo1_consultas.html">Consultas</a></li>
+                    <li><a href="#">Pacientes</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container inicio blanco">
+        <h4 class="inicio ">Crear nuevo usuario</h4>
+    </div>
+
+    <div class="container formulario">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <br>
+                    <label for="inputEmail4">Nombre(s)</label>
+                    <input type="text" class="form-control" id="nombreUsuario" name="nombreUsuario" placeholder="Ej. Juan Alejandro" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Apellido Paterno</label>
+                    <input type="text" class="form-control" id="apellidoPUsuario" name="apellidoPUsuario" placeholder="Ej. Pérez">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Apellido Materno</label>
+                    <input type="text" class="form-control" id="inputPassword4" name="apellidoMUsuario" placeholder="Ej. Martínez">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="nacimientoUsuario" name="nacimientoUsuario">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="sexo">Sexo</label>
+                    <select class="custom-select mr-sm-2" id="sexoUsuario" name="sexoUsuario">
+                    <option selected>Selecciona...</option>
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                    <option value="2">Otros</option>
+                  </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="puesto">Puesto</label>
+                    <select class="custom-select mr-sm-2" id="puestoUsuario" name="puestoUsuario">
+                    <option selected>Selecciona...</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Terapeuta">Terapeuta</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="escolaridad">Escolaridad</label>
+                    <select class="custom-select mr-sm-2" id="escolaridadUsuario" name="escolaridadUsuario">
+                    <option selected>Selecciona...</option>
+                    <option value="1">N/A</option>
+                    <option value="2">Primaria</option>
+                    <option value="3">Secundaria</option>
+                    <option value="4">Preparatoria</option>
+                    <option value="5">Profesional</option>
+                    <option value="6">Otro</option>
+                  </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" class="form-control" name="telefonoUsuario" id="telefonoUsuario" placeholder="Ej. 4421234695">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="correo">Correo</label>
+                    <input type="text" class="form-control" name="correoUsuario" id="correoUsuario" placeholder="ejemplo@gmail.com">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" class="form-control" name="direccionUsuario" id="direccionUsuario" placeholder="Ej. Calle Robles #35 Col. El Campanario">
+                </div>
+            </div>
+            <br>
+            <input type="submit" class="btn btn-success" value="Crear Usuario">
+            <br><br>
+        </form>
+    </div>
+</body>
+
+</html>

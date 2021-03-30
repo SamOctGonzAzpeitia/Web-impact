@@ -1,0 +1,23 @@
+.container-fluid{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:0;
+    margin-right:0;
+}
+
+
+body {
+    background-image: url("./equipoasuncion.jpg");
+    background-repeat:no-repeat;
+    background-size: 67% 105%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 300%;
+}
+
+#logo{
+    width: 60%;
+    height: 60%;
+}

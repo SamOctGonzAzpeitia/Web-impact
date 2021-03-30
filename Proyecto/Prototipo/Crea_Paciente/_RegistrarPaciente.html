@@ -1,0 +1,214 @@
+<?php
+   require_once 'util.php';
+   ?>
+
+    <body>
+
+        <!-- sin este div -->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <br>
+            <div class="container-fluid">
+                <h3 class="container">Registrar Paciente</h3>
+                <br><br>
+            </div>
+            <div id="carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container formulario">
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <br>
+                                    <label for="Nombre" class="bold">Nombre(s)</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ej. José Manuel" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="Apellido Paterno" class="bold">Apellido Paterno</label>
+                                    <input type="text" class="form-control" id="apellidoP" name="apellidoP" placeholder="Ej. Pérez">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="Apellido Materno" class="bold">Apellido Materno</label>
+                                    <input type="text" class="form-control" id="apellidoM" name="apellidoM" placeholder="Ej. Ramírez">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="domicilio" class="bold">Domicilio</label>
+                                    <input type="text" class="form-control" id="domicilio" name="domicilio" placeholder="Ej. Calle Robles #34 Col. El Paseo">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="Estado" class="bold">Estado</label>
+                                    <select class="custom-select mr-sm-2" id="estado" name="estado">
+                           <option selected value="0">Selecciona...</option>
+                           <option value="1">Aguascalientes</option>
+                           <option value="2">Baja California</option>
+                           <option value="3">Baja California Sur</option>
+                           <option value="4">Campeche</option>
+                           <option value="5">Coahuila</option>
+                           <option value="6">Colima</option>
+                           <option value="7">Chiapas</option>
+                           <option value="8">Chihuahua</option>
+                           <option value="9">Distrito Federal</option>
+                           <option value="10">Durango</option>
+                           <option value="11">Guanajuato</option>
+                           <option value="12">Guerrero</option>
+                           <option value="13">Hidalgo</option>
+                           <option value="14">Jalisco</option>
+                           <option value="15">México</option>
+                           <option value="16">Michoacán</option>
+                           <option value="17">Morelos</option>
+                           <option value="18">Nayarit</option>
+                           <option value="19">Nuevo León</option>
+                           <option value="20">Oaxaca</option>
+                           <option value="21">Puebla</option>
+                           <option value="22">Querétaro</option>
+                           <option value="23">Quintana Roo</option>
+                           <option value="24">San Luis Potosí</option>
+                           <option value="25">Sinaloa</option>
+                           <option value="26">Sonora</option>
+                           <option value="27">Tabasco</option>
+                           <option value="28">Tamaulipas</option>
+                           <option value="29">Tlaxcala</option>
+                           <option value="30">Veracruz</option>
+                           <option value="31">Yucatán</option>
+                           <option value="32">Zacatecas</option>
+                        </select>
+                                </div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <label for="municipio" class="bold">Selecciona un Municipio</label>
+                                        <select name="municipio" id="municipio" class="custom-select mr-sm-2"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="tel" class="bold">Teléfono</label>
+                                    <input type="text" class="form-control" id="tel" name="tel" placeholder="Ej. 4421015623">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for=correo class="bold">Correo Electrónico</label>
+                                    <input type="text" class="form-control" id="correo" name="correo" placeholder="Ejemplo@gmail.com">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label for="fechaNacimiento" class="bold">Fecha de Nacimiento</label>
+                                    <input type="date" class="form-control" id="nacimiento" name="nacimiento">
+                                </div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <div class="form-group col-md-3">
+                                    <label for="Genero" class="bold">Género</label>
+                                    <select class="custom-select mr-sm-2" id="genero" name="genero">
+                           <option selected value="0">Selecciona...</option>
+                           <option value="Masculino">Masculino</option>
+                           <option value="Femenino">Femenino</option>
+                           <option value="Otro">Otro</option>
+                        </select>
+                                </div>
+                            </div>
+                            <br><br>
+                            <input type="button" class="btn btn-success siguiente bold" value="Siguiente" name="siguiente" id="siguiente"></input>
+                            <br><br>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container formulario">
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <br>
+                                    <label for="Diagnostico" class="bold">Diagnóstico</label>
+                                    <input type="text" class="form-control" name="diagnostico" id="diagnostico" placeholder="Ej. El paciente padece...">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="Lesion" class="bold">Tipo de terapia</label>
+                                    <select class="custom-select mr-sm-2" id="lesion" name="lesion">
+                                        <option selected value="0">Selecciona...</option>
+                                        <option value="Terapia Fisica">Terapia Fisica</option>
+                                        <option value="Terapia de Lenguaje">Terapia de Lenguaje</option>
+                                     </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-3">
+                                    <label for="ingreso" class="bold">Ingreso</label>
+                                    <input type="date" class="form-control" id="ingreso" name="ingreso">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="dependencia" class="bold">Dependencia</label>
+                                    <input type="text" class="form-control" id="dependencia" name="dependencia" placeholder="Ej. El paciente depende de... ">
+                                </div>
+                            </div>
+                            <br><br>
+                            <input type="button" class="btn btn-success bold" value="Siguiente" name="siguiente2" id="siguiente2"></input>
+                            <br><br>
+                            <input type="button" class="btn btn-warning bold" value=" Anterior " name="anterior" id="anterior"></input>
+                            <br><br>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container formulario">
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <br>
+                                    <label for="estudioSE" class="bold">Estudio Socioeconómico</label>
+                                    <div>
+                                        <form method="post" action="" enctype="multipart/form-data" id="myform">
+                                            <input type="file" id="file" name="file">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="curp" class="bold">Curp</label>
+                                    <br>
+                                    <input type="file" name="curp" id="curp">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="acta" class="bold">Acta de Nacimiento</label>
+                                    <input type="file" name="acta" id="acta">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="comprobante" class="bold">Comprobante de Domicilio</label>
+                                    <input type="file" name="comprobante" id="comprobante">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="rexpediente" class="bold">Expediente Clínico</label>
+                                    <input type="file" name="expediente" id="expediente">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="recomendacion" class="bold">Recomendación Médica</label>
+                                    <input type="file" name="recomendacion" id="recomendacion">
+                                </div>
+                            </div>
+
+                            <input type="button" class="btn btn-primary bold" value="SUBIR FOTOS" id="but_upload">
+                            <br><br><br><br>
+                            <input type="button" value="REGISTRAR PACIENTE" class="btn btn-success bold" name="registrarPaciente" id="registrarPaciente"></input>
+                            <br><br>
+                            <input type="button" class="btn btn-warning bold" value=" Anterior " name="anterior2" id="anterior2"></input>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </main>

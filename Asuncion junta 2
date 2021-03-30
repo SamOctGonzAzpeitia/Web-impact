@@ -1,0 +1,14 @@
+Reportes de donaciones: Tabla de quien dono, cuanto y cuando.
+
+Los terapeutas se van rolandom, no se asigna un paciente a un terapeuta. Puede ser tener los horarios de los terapeutas para saber quien esta disponible en ese momento.
+
+Los terapeutas tienen formas donde dice que terapia necesita el paciente y asi se le asigna algun terapeuta que este disponible. 
+
+Los horarios se manejan en las areas, administracion no tiene control de los horarios. 
+
+En terapia fisica los pacientes vienen referidos por un medico. 
+En terapia de lenguaje llegan y los evalua un terapeuta, el que este disponible. 
+
+Que incluyen los reportes de los pacientes: Lleva el nombre de quien lo elaboro y la firma. 
+
+En terapia fisica quien sea te puede dar el servicio, en terapia 
